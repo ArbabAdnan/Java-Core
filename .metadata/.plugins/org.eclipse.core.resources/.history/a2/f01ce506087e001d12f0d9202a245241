@@ -1,0 +1,32 @@
+import java.util.*;
+public class TwoDimensionalArrayList {
+
+	public static void main(String[] args) {
+		// 2D ArrayList= a dynamic list of lists
+		// you can change the size of these lists during runtime
+
+		ArrayList<String> cakeList = new ArrayList();
+		
+		cakeList.add("pasta");
+		cakeList.add("garlic");
+		cakeList.add("doo");
+		
+	ArrayList<String> ProductList = new ArrayList();
+		
+		ProductList.add("tamotos");
+		ProductList.add("vegetale");
+		ProductList.add("medical");
+		
+ArrayList<String> DrinkList = new ArrayList();
+		
+		ProductList.add("tamotos");
+		ProductList.add("vegetale");
+		ProductList.add("medical");
+		
+		
+		System.out.println(cakeList.get(0));
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Variable {
+
+	public static void main(String[] args) {
+		
+		int x = 123565;//initialization
+		
+		double y=33.9999;
+		
+		float e =2.14f;
+		
+		
+		
+		System.out.println("my num is "+x);
+		System.out.println("my num is "+y);
+		System.out.println("my num is "+e);
+		
+		
+
+	}
+
+}

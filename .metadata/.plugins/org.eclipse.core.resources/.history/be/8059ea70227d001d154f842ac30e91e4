@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class NestedLoop {
+
+	public static void main(String[] args) {
+		// nested loops a loop inside of a loop
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		scanner.close();
+
+	}
+
+}

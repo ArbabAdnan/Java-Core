@@ -1,0 +1,34 @@
+
+import java.util.Scanner;
+
+public class NestedLoop {
+
+	public static void main(String[] args) {
+		// nested loops a loop inside of a loop
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int rows;
+		int column;
+		String symbol= "";
+		
+		System.out.println("Enter The Rows");
+		rows = scanner.nextInt();
+		System.out.println("Enter the Colums");
+		column = scanner.nextInt();
+		System.out.println("Enter The Symbols");
+		symbol = scanner.next();
+		
+		for(int i=1;i<=rows;i++) {
+			System.out.println();
+		
+			for(int j=1;j<=column;j++) {
+				System.out.println(symbol);
+			}
+		}
+		
+		scanner.close();
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package learn;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class TraverseExample {
+
+	public static void main(String[] args) {
+		 ArrayList<String> names = new ArrayList<String>();
+	        names.add("Durgesh");
+	        names.add("Sitara");
+	        names.add("Roshni");
+	        names.add("Vandna");
+	        names.add("Vandna");
+	        
+	        //for each loop
+	        for(String str:names) {
+	        	System.out.print(str +"\t"+str.length()+"\t");
+	        	StringBuffer buffer= new StringBuffer(str);
+	        	System.out.println(buffer.reverse());
+	        }
+	        
+	        System.out.println("_______________________________");
+	        
+	        //traversing using Iterator: Forward traversing
+	      Iterator<String> iterator =  names.iterator();
+	      
+	      while(iterator.hasNext()) {
+	    	String next = iterator.next();
+	    	System.out.println(next);
+	      }
+	      //backward travesing of  collection ListIterator
+	     ListIterator<String> itr = names.listIterator();
+	     
+	     
+	     while(itr.hasPrevious()) {
+	    	String pre = itr.previous();
+	    	System.out.println(pre);
+	     }
+
+	}
+
+}

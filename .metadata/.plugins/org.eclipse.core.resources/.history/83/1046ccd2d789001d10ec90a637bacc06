@@ -1,0 +1,21 @@
+package typecasting;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i =40;
+		double d= i;
+		
+		System.out.println(i);
+		System.out.println(d);
+		
+		double myval=34.1;
+		int j= myval;
+		
+		System.out.println(myval);
+		System.out.println(j);
+	}
+
+}

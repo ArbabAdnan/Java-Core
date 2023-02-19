@@ -1,0 +1,13 @@
+
+public class Variable {
+
+	public static void main(String[] args) {
+		
+		long X = 1235656456546656445665656;//initialization
+		
+		System.out.println("my num is "+X);
+		
+
+	}
+
+}

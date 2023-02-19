@@ -1,0 +1,14 @@
+
+public class MainArraylist {
+
+	public static void main(String[] args) {
+		// ArrayList = is a Collection 
+				//				a resizeble array.
+				//				elements can be added and removed after compilation phase
+				//				store only reference data types
+
+				ArrayList<String> food = new ArrayList<string>();
+
+	}
+
+}

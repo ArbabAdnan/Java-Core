@@ -1,0 +1,30 @@
+package learn;
+
+import java.util.ArrayList;
+
+public class Startcode {
+
+	public static void main(String[] args) {
+	    /*
+	       creating collection
+
+	       1)Type Safe- same type of elements(objects) are added to collection
+
+
+	       2)Un Type safe- different types of elements can be added to collection
+
+	        */
+		
+		//Type safe
+		ArrayList<String> name= new ArrayList<>();
+		
+		name.add("adnan");
+		name.add("khan");
+		name.add("kasi");
+		
+		System.out.println(name.indexOf(0));
+
+		
+	}
+
+}

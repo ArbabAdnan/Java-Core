@@ -1,0 +1,13 @@
+package object_oop.varscope;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// local = declared inside the method 
+		//         visible only to that method 
+		
+		// global
+
+	}
+
+}
